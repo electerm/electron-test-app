@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "electron-test-app",
   "scripts": {
-    "postinstall": "./node_modules/.bin/electron-rebuild"
+    "postinstall": "node_modules\\.bin\\electron-rebuild"
   },
   "license": "MIT",
   "repository": {
