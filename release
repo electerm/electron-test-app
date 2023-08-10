@@ -1,6 +1,6 @@
 #!/bin/bash
 cd `dirname $0`
-git co master
+git co main
 git pull
 git pull
 git delete-branch build
