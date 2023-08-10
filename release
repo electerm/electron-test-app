@@ -1,6 +1,5 @@
 #!/bin/bash
 cd `dirname $0`
-cd ..
 git co master
 git pull
 git pull
