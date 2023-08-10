@@ -1,0 +1,31 @@
+{
+  "name": "electron-test-app",
+  "version": "1.0.0",
+  "description": "electron-test-app",
+  "scripts": {
+    "postinstall": "./node_modules/.bin/electron-rebuild"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/electron-test-app/electron-test-app.git"
+  },
+  "author": {
+    "name": "ZHAO Xudong",
+    "email": "zxdong@gmail.com",
+    "url": "https://github.com/zxdong262"
+  },
+  "bugs": {
+    "url": "https://github.com/electron-test-app/electron-test-app/issues"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "electron": "18.3.15",
+    "electron-builder": "24.4.0"
+  },
+  "dependencies": {
+    "node-pty": "1.0.0"
+  }
+}
